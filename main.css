@@ -120,3 +120,47 @@ body {
     font-size: 20px;
     letter-spacing: 1px;
 }
+
+/* record section */
+
+.section {
+    display: flex;
+    background-color: var(--background-color);
+    height: 70vh;
+    width: 100%;
+}
+
+.standings-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #222;
+}
+
+table {
+    width: 80%;
+}
+
+table th, tr{
+font-size: 20px;
+background-color: #fff;
+border: 1px solid #ddd;
+padding: 15px;
+text-align: center;
+}
+
+table img {
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
