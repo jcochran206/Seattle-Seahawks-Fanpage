@@ -124,34 +124,37 @@ body {
 /* record section */
 
 .section {
-    display: flex;
     background-color: var(--background-color);
-    height: 70vh;
+    height: 100vh;
     width: 100%;
 }
 
+
 .record-container {
     display: flex;
-    flex-direction: column;
-    width: 80%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
     margin: 0 auto;
 }
 
-.rec-title {
+.title {
     font-size: 30px;
     font-weight: 800;
     color: #222;
 }
 
 table {
-    width: 80%;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 table th, tr{
-font-size: 20px;
+font-size: 1.2rem;
+font-weight: bold;
 background-color: #fff;
 border: 1px solid #ddd;
-padding: 15px;
+padding: 10px;
 text-align: center;
 }
 
@@ -163,4 +166,12 @@ table img {
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+
+.nfc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
 }
